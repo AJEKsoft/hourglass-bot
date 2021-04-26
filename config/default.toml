@@ -1,0 +1,12 @@
+# Make a new file {environment name}.toml and fill it out there. Absolutely no secrets in this file.
+
+adminRoles = ["826804563897876490"]
+
+[channels]
+dates = "826830860593397841"
+
+[roles]
+attendee = "836303039345852457"
+
+[discord]
+token = ""

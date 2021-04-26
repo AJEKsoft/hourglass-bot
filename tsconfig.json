@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2019",
+    "sourceMap": false,
+    "outDir": "./dist"
+  },
+  "include": [
+    "./src/**/*",
+    ".eslintrc.js"
+  ]
+}
