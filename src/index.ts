@@ -29,7 +29,7 @@ client.on('message', async (msg) => {
   }
 
   // Post a message
-  const announcement = await msg.channel.send(`**Hey @everyone!**
+  const announcement = await msg.channel.send(`**Hey!**
 React to this message to get this week's <@&${config.get('roles.attendee')}> role and access the jamming channels!
 I just can't wait!`);
   announcement.react('🔥');
